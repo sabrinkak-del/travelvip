@@ -183,7 +183,7 @@ const packages = [
         itinerary: "יום 1: העיר העתיקה והכותל. יום 2: טעימות בשוק מחנה יהודה. יום 3: ביקור ביד ושם ומוזיאון ישראל.",
         guide: "יוסי כהן - מומחה לארכיאולוגיה והיסטוריה ירושלמית",
         price: 2500,
-        image: "https://images.unsplash.com/photo-1542668595-bb9195c5d986?q=80&w=1200&auto=format&fit=crop",
+        image: "https://media3.reshet.tv/image/upload/t_grid-item-large/v1716989059/uploads/2024/904077691.webp",
         type: "REGULAR"
     },
     {
@@ -411,4 +411,5 @@ function initContact() {
         modal.querySelector('.close-modal').onclick = () => closeLegal(modal);
     });
 }
+
 
