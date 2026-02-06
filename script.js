@@ -213,7 +213,7 @@ const packages = [
         itinerary: "יום 1: קבלת פנים על היאכטה. יום 2: צלילה בריף הדולפינים. יום 3: ארוחת גורמה מול השקיעה.",
         guide: "עמית סלע - רב חובל ומומחה לצלילה ופעילות ימית",
         price: 12000,
-        image: "https://images.unsplash.com/photo-1566438480900-0609be27a4be?q=80&w=1200&auto=format&fit=crop",
+        image: "https://static.wixstatic.com/media/173041_aa5eb69b0bb641e2b03f4f88db1b07bf~mv2.jpeg/v1/fill/w_919,h_649,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/173041_aa5eb69b0bb641e2b03f4f88db1b07bf~mv2.jpeg",
         type: "PREMIUM"
     },
     {
@@ -233,7 +233,7 @@ const packages = [
         itinerary: "יום 1: ציפה בים המלח בחוף פרטי. יום 2: יום ספא מלא במלון הרודס. יום 3: סיור זריחה במצדה.",
         guide: "יונתן רז - מומחה לאזור ים המלח ומדבר יהודה",
         price: 6800,
-        image: "https://images.unsplash.com/photo-1551041777-ed07fa68f804?q=80&w=1200&auto=format&fit=crop",
+        image: "https://storage.hidabroot.org/articles_new/305162_tumb_730X500.jpg",
         type: "PREMIUM"
     },
     {
@@ -243,7 +243,7 @@ const packages = [
         itinerary: "יום 1: סיור מודרך בנמל ובתיאטרון. יום 2: בוקר גולף בקיסריה. יום 3: גלריות אמנים בעיר העתיקה.",
         guide: "שרה לוי - ארכיאולוגית ומדריכה מוסמכת",
         price: 3900,
-        image: "https://images.unsplash.com/photo-1627471017300-85f09908d0e5?q=80&w=1200&auto=format&fit=crop",
+        image: "https://mafish.org.il/wp-content/uploads/2021/04/%D7%94%D7%9E%D7%93%D7%A9%D7%90%D7%94-%D7%A0%D7%9E%D7%A6%D7%90%D7%AA-%D7%91%D7%9E%D7%A7%D7%95%D7%9D-%D7%A9%D7%9C-%D7%94%D7%A0%D7%9E%D7%9C-%D7%94%D7%A4%D7%A0%D7%99%D7%9E%D7%99.jpg",
         type: "REGULAR"
     },
     {
@@ -253,7 +253,7 @@ const packages = [
         itinerary: "יום 1: סיור VIP בגנים הבהאיים. יום 2: סיור קולינרי בוואדי ניסנאס. יום 3: תצפית סטלה מאריס ורכבל.",
         guide: "אילן שפירא - מורה דרך מומחה להיסטוריה חיפאית",
         price: 3200,
-        image: "https://images.unsplash.com/photo-1547038577-da80abbc4f19?q=80&w=1200&auto=format&fit=crop",
+        image: "https://res.cloudinary.com/globes/image/upload/t_desktop_article_content_header_800%2A392,f_auto/v1643811462/direct/shutterstock_122522980_qxcsn4.jpg",
         type: "REGULAR"
     }
 ];
@@ -411,5 +411,6 @@ function initContact() {
         modal.querySelector('.close-modal').onclick = () => closeLegal(modal);
     });
 }
+
 
 
