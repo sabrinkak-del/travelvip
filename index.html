@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelVIP - חבילות טיולים יוקרתיות</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display:wght@700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="glitter-container"></div>
+
+    <header class="main-header">
+        <div class="logo">Travel<span>VIP</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link active" data-section="home">בית</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">אודות</a></li>
+                <li><a href="#packages" class="nav-link" data-section="packages">חבילות טיולים</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">צור קשר</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button id="login-btn" class="btn-gold-outline">כניסה</button>
+            <button id="register-btn" class="btn-gold">הרשמה</button>
+            <div id="user-profile" class="hidden">
+                <span id="username-display"></span>
+                <button id="logout-btn" class="btn-text">התנתק</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="content-section active">
+            <div class="hero">
+                <h1 class="gold-text animate-pop-in">חווית הטיול היוקרתית בישראל</h1>
+                <p class="subtitle">גלו את הארץ בסטייל וברמה שטרם הכרתם</p>
+                <div class="hero-actions">
+                    <button class="btn-gold" onclick="document.querySelector('[data-section=packages]').click()">צפו
+                        בחבילות</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2 class="gold-text">אודות TravelVIP</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p><strong>TravelVIP</strong> היא החברה המובילה בישראל לטיולי יוקרה בהתאמה אישית, שנוסדה מתוך
+                            חזון להגדיר מחדש את המושג "טיול". אנחנו מאמינים שטיול הוא לא רק מעבר ממקום למקום, אלא חוויה
+                            של פעם בחיים שצריכה להיות מושלמת בכל פרט ופרט, מהרגע הראשון של התכנון ועד החזרה הביתה.</p>
+
+                        <h4 class="gold-text">החזון שלנו</h4>
+                        <p>החזון שלנו הוא להעניק ללקוחותינו גישה בלעדית לפינות החמד הנסתרות ביותר בישראל, תוך שמירה על
+                            רמת שירות בינלאומית. אנו שואפים לחבר בין פאר מודרני להיסטוריה עתיקה, וליצור זיכרונות שנשארים
+                            לכל החיים.</p>
+
+                        <h4 class="gold-text">למה לבחור בנו?</h4>
+                        <ul class="luxury-list">
+                            <li><strong>מומחיות ללא פשרות:</strong> הצוות המקצועי שלנו כולל את בכירי מורי הדרך בישראל,
+                                מומחים להיסטוריה, ארכיאולוגיה וקולינריה.</li>
+                            <li><strong>גישה בלעדית:</strong> אנו מספקים כניסה למקומות סגורים לקהל הרחב, פגישות עם
+                                דמויות מפתח וחוויות ייחודיות בלב הטבע.</li>
+                            <li><strong>שירות אישי 24/7:</strong> לכל לקוח מוצמד באטלר אישי הזמין לכל בקשה, החל משינוי
+                                מסלול ועד הזמנת מקום במסעדה בשעה מאוחרת.</li>
+                            <li><strong>צי רכב יוקרתי:</strong> כל הנסיעות מתבצעות ברכבי יוקרה חדישים ומאובזרים, עם
+                                נהגים מקצועיים ואדיבים.</li>
+                        </ul>
+
+                        <h4 class="gold-text">הסיפור שלנו</h4>
+                        <p>TravelVIP החלה כסטארט-אפ קטן של שני חובבי טיולים שחיפשו את היוקרה האמיתית בישראל ולא מצאו
+                            אותה. כיום, לאחר עשור של פעילות, אנו משרתים אלפי לקוחות מרוצים מהארץ ומהעולם, כולל אנשי
+                            עסקים, דיפלומטים ומשפחות המחפשות את הטוב ביותר.</p>
+                        <p>אנחנו מזמינים אתכם להצטרף למשפחת הלקוחות המרוצים שלנו ולגלות את ישראל כפי שמעולם לא ראיתם.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="gold-text">1000+</span>
+                            <p>טיולי VIP מוצלחים</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="gold-text">100%</span>
+                            <p>שביעות רצון לקוחות</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="gold-text">24/7</span>
+                            <p>שירות לקוחות אישי</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages" class="content-section">
+            <div class="container">
+                <h2 class="gold-text">חבילות הטיולים שלנו</h2>
+                <div class="package-filters">
+                    <div class="search-box">
+                        <input type="date" id="start-date" placeholder="תאריך יציאה">
+                        <input type="date" id="end-date" placeholder="תאריך חזרה">
+                        <input type="number" id="people-count" min="1" value="1" placeholder="כמות אנשים">
+                        <button id="search-btn" class="btn-gold">חפש</button>
+                    </div>
+                </div>
+                <div id="packages-grid" class="packages-grid">
+                    <!-- Managed by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="container" style="text-align: center;">
+                <h2 class="gold-text" style="font-size: 3rem; margin-bottom: 30px;">צור קשר</h2>
+                <div class="contact-wrapper">
+                    <form id="contact-form" class="luxury-form">
+                        <div class="form-group">
+                            <label for="full-name">שם מלא</label>
+                            <input type="text" id="full-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">דואר אלקטרוני</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">תוכן ההודעה</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-gold">שלח הודעה</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 TravelVIP. כל הזכויות שמורות.</p>
+            <div class="footer-links">
+                <a href="#" class="legal-link">מדיניות פרטיות</a>
+                <a href="#" class="legal-link">תקנון</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="auth-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="login-form-container">
+                <h3>כניסת משתמש</h3>
+                <form id="login-form" class="luxury-form">
+                    <input type="email" placeholder="דואר אלקטרוני" required>
+                    <input type="password" placeholder="סיסמה" required>
+                    <button type="submit" class="btn-gold">התחבר</button>
+                    <p>עדיין לא רשומים? <a href="#" id="to-register">הירשמו עכשיו</a></p>
+                </form>
+            </div>
+            <div id="register-form-container" class="hidden">
+                <h3>הרשמה לאתר</h3>
+                <form id="register-form" class="luxury-form">
+                    <input type="text" placeholder="שם מלא" required>
+                    <input type="email" placeholder="דואר אלקטרוני" required>
+                    <input type="password" placeholder="סיסמה" required>
+                    <button type="submit" class="btn-gold">הירשם</button>
+                    <p>כבר יש לכם חשבון? <a href="#" id="to-login">התחברו כאן</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="booking-title" class="gold-text">הזמנת חבילה</h3>
+            <div id="booking-details"></div>
+            <div id="trip-info" class="hidden">
+                <h4 class="gold-text">על הטיול:</h4>
+                <p id="trip-description"></p>
+                <h4 class="gold-text">המדריך שלך:</h4>
+                <p id="guide-info"></p>
+            </div>
+            <div id="payment-warning" class="hidden warning-box">
+                <p>זוהי חבילת PREMIUM. יש להסדיר תשלום מראש.</p>
+            </div>
+            <div id="payment-prompt" class="hidden luxury-form" style="margin-top:20px; padding: 20px;">
+                <h4 class="gold-text">מערכת תשלום מאובטחת</h4>
+                <div class="form-group">
+                    <input type="text" placeholder="שם על הכרטיס" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="מספר כרטיס אשראי" required>
+                </div>
+                <div class="form-row">
+                    <input type="text" placeholder="MM/YY" style="width: 48%" required>
+                    <input type="text" placeholder="CVV" style="width: 48%" required>
+                </div>
+                <button class="btn-gold" style="margin-top:20px; width: 100%" onclick="confirmBooking()">שלם והזמן
+                    עכשיו</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Legal Modals -->
+    <div id="privacy-modal" class="modal hidden">
+        <div class="modal-content legal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="gold-text">מדיניות פרטיות - TravelVIP</h3>
+            <div class="scrollable-text">
+                <p>ברוכים הבאים ל-TravelVIP. אנו מחויבים להגן על פרטיות המשתמשים שלנו ומספקים מדיניות זו כדי להבהיר כיצד
+                    אנו אוספים ומשתמשים במידע.</p>
+                <p><strong>1. איסוף מידע:</strong> אנו אוספים מידע אישי כגון שם מלא, כתובת אימייל ומספר טלפון בעת הרשמה
+                    או פנייה דרך האתר. מידע זה משמש למתן שירות ושיפור חווית המשתמש.</p>
+                <p><strong>2. אבטחת מידע:</strong> TravelVIP משתמשת באמצעי אבטחה מתקדמים ובהצפנת SSL כדי להגן על המידע
+                    האישי שלכם. אנו לא שומרים פרטי כרטיסי אשראי בשרתים שלנו.</p>
+                <p><strong>3. העברת מידע לצד ג':</strong> אנו לא מוכרים או מעבירים מידע אישי לצדדים שלישיים, למעט מקרים
+                    בהם הדבר נדרש לצורך השלמת ההזמנה (כגון חברות תעופה או מלונות) או לפי דרישת החוק.</p>
+                <p><strong>4. שימוש בעוגיות:</strong> האתר משתמש בקבצי Cookie כדי לשפר את הגלישה ולזכור את העדפותיכם.
+                    ניתן לנטרל אפשרות זו בהגדרות הדפדפן.</p>
+                <p><strong>5. יצירת קשר:</strong> לכל שאלה בנושא פרטיות ניתן לפנות אלינו דרך טופס הצור קשר באתר.</p>
+                <p><em>עודכן לאחרונה: פברואר 2026.</em></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="terms-modal" class="modal hidden">
+        <div class="modal-content legal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="gold-text">תקנון ותנאי שימוש - TravelVIP</h3>
+            <div class="scrollable-text">
+                <p>השימוש באתר TravelVIP כפוף לתנאים המפורטים להלן. בעצם השימוש באתר, הנך מסיים הסכמה לתנאים אלו.</p>
+                <p><strong>1. שירותי החברה:</strong> TravelVIP מספקת שירותי תיווך ותכנון טיולי יוקרה. האחריות על ביצוע
+                    הטיול בפועל חלה על ספקי השירות השונים (מלונות, חברות הסעה וכו').</p>
+                <p><strong>2. הזמנות ותשלומים:</strong> הזמנת חבילה כרוכה בתשלום מקדמה או תשלום מלא כפי שיצוין בדף
+                    ההזמנה. חבילות PREMIUM דורשות תשלום מראש והסדרת פרטים מול סוכן אישי.</p>
+                <p><strong>3. מדיניות ביטולים:</strong> ביטול הזמנה יתבצע בהתאם לחוק הגנת הצרכן. דמי ביטול עשויים לחול
+                    בהתאם לזמן הביטול לפני מועד הטיול.</p>
+                <p><strong>4. קניין רוחני:</strong> כל הזכויות בעיצוב האתר, התמונות והתוכן שמורות ל-TravelVIP. אין
+                    להעתיק או לעשות שימוש מסחרי בתוכן ללא אישור בכתב.</p>
+                <p><strong>5. הגבלת אחריות:</strong> החברה אינה אחראית לנזקים שייגרמו עקב כוח עליון, שביתות או גורמים
+                    אחרים שאינם בשליטתה הישירה.</p>
+                <p><strong>6. סמכות שיפוט:</strong> לבתי המשפט המוסמכים במחוז תל אביב תהא סמכות השיפוט הבלעדית בכל עניין
+                    הנובע מתנאים אלו.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
